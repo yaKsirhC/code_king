@@ -11,13 +11,17 @@ import Main from '../layouts/main.astro'
 ---
 
 <Main title="code_king">
-	<Hero />
-	<WhatWeDo />
-	<Process />
-	<Technologies />
-	<Demonstrations client:load />
-	<FAQs client:load />
-	<Contact />
+	<title>Code King</title>
+	<link rel="shortcut icon" href="/red_lion.png" type="image/png">
+	<div id="ck" slot="body">
+		<Hero />
+		<WhatWeDo />
+		<Process />
+		<Technologies />
+		<Demonstrations client:load />
+		<FAQs client:load />
+		<Contact />
+	</div>
 </Main>
 
 
@@ -108,7 +112,7 @@ p {
 /* .card {
 	width: 100vw;
 } */
-body {
+#ck {
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
