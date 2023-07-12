@@ -1,4 +1,11 @@
+import useAnimate from "./scrollHook"
+
 export default function Technologies() {
+
+	const [selectEl, setClass] = useAnimate("active-scroll anim-fade-right")
+
+	selectEl?.(".tech-block" as any)
+
   return (
 	<div class="flex flex-col items-center gap-8 mb-16">
 		<div class="titles">

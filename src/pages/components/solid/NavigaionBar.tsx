@@ -1,6 +1,6 @@
 export default function NavigaionBar() {
   return (
-	<nav class="flex fixed w-full bg-white justify-center gap-8 items-center py-4 px-2">
+	<nav class="flex top-0 fixed w-full bg-white justify-center z-50 gap-8 items-center py-4 px-2">
 		<ul class="left-links flex gap-8">
 			<li>
 				<a href="">

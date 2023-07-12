@@ -4,7 +4,7 @@
 	let cardIndex = 0;
 </script>
 
-<section class="demo flex justify-evenly xl:items-start items-center xl:flex-row flex-col-reverse xl:gap-16 gap-8">
+<section class="demo flex justify-evenly xl:items-start items-center xl:flex-row xl: flex-col-reverse xl:gap-16 gap-8">
 	<div class="description">
 		<div class="genres-cole">
 			<p class="xl:text-start text-center px-4 text-gray-700">
@@ -33,7 +33,6 @@
 		<img
 			src={demos.at(cardIndex)?.media}
 			alt={demos.at(cardIndex)?.media}
-			class=""
 		/>
 		<p class="text-gray-700 text-sm mt-2 px-4 text-center">
 			{demos.at(cardIndex)?.credit}
@@ -52,6 +51,6 @@
 		/* height: 400px; */
 		width: 40vw;
 		max-width: 80%;
-		min-width: 200px;
+		min-width: 500px;
 	}
 </style>

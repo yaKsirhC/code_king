@@ -14,10 +14,10 @@ import Main from '../layouts/main.astro'
 	<title>Code King</title>
 	<link rel="shortcut icon" href="/red_lion.png" type="image/png">
 	<div id="ck" slot="body">
-		<Hero />
-		<WhatWeDo />
-		<Process />
-		<Technologies />
+		<Hero  client:load />
+		<WhatWeDo client:load/>
+		<Process client:load />
+		<Technologies client:load/>
 		<Demonstrations client:load />
 		<FAQs client:load />
 		<Contact />
@@ -109,20 +109,101 @@ p {
 	width: auto;
 }
 
-/* .card {
-	width: 100vw;
-} */
+.list-decimal li img {
+	width: 300px;
+	height: auto;
+}
+
+.list-decimal li:nth-child(2n) {
+	flex-direction: row-reverse;
+}
+
+.list-decimal li {
+	display: flex;
+	gap: 20px;
+	justify-content: space-evenly;
+}
+
+.list-decimal li h2 {
+	font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+	font-weight: 600;
+}
+
 #ck {
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
   gap: 10rem;
+  margin: 8rem 0;
 }
 
 *, *::after, *::before {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
   box-sizing: border-box;
   transition: all 150ms;
+}
+h1, h2, h3 {
+	max-width: 20ch;
+}
+h2 {
+	max-width: 40ch;
+	
+}
+
+.process-p {
+	font-size: 1.5rem/* 20px */;
+	line-height: 2rem/* 28px */;
+	max-width: 40ch;
+}
+
+.anim-fade-left {
+	opacity: 0;
+	transform: translateX(-50px) translateY(-50px);
+}
+.anim-fade-left.active-scroll {
+	animation: anim-fade-left 1s ease forwards;
+}
+
+.anim-fade-right.active-scroll {
+	animation: anim-fade-right 1s ease forwards;
+}
+.anim-fade-right {
+	opacity: 0;
+	transform: translateX(50px) translateY(50px);
+}
+
+.question h2, .question h1 {
+	max-width: none;
+}
+
+.twd:nth-child(2) {
+	animation-delay: 500ms;
+}
+.twd:nth-child(3) {
+	animation-delay: 1s;
+}
+
+@keyframes anim-fade-right {
+	0%{
+		opacity: 0;
+		transform: translateX(50px) translateY(50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0) translateY(0);
+	}
+}
+
+@keyframes anim-fade-left {
+	0%{
+		opacity: 0;
+		transform: translateX(-50px) translateY(-50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0) translateY(0);
+	}
 }
 </style>
