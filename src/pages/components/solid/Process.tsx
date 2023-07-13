@@ -10,9 +10,9 @@ export default function Process() {
 	},0)
 
 	return (
-		<div class=" flex p-16 flex-col gap-16 mb-16">
-				<h1 class="title">The Process</h1>
-				<h2 class="mb-4 process-p">
+		<section id="proc" class=" flex p-16 flex-col gap-16 mb-16">
+				<h1 class="title self-center">The Process</h1>
+				<h2 class="mb-4 text-center self-center process-p">
 					There are 4 major Steps with how we build projects and little is done by you except
 					describing, critiquing and giving suggestions. Here is a breakdown of all the steps:
 				</h2>
@@ -63,6 +63,6 @@ export default function Process() {
 						<img src="/process/deliver.svg" alt="Delivery or Deployment" />
 					</li>
 				</ul>
-		</div>
+		</section>
 	)
 }

@@ -3,7 +3,7 @@ import useAnimate from "./scrollHook";
 
 export default function ThingWeDo({title, description}: {title: string, description: string}) {
 	let div: HTMLElement | undefined;
-	const [setEl, setClass] = useAnimate("active-scroll", div as HTMLElement);
+	const [setEl, _] = useAnimate("active-scroll", div as HTMLElement);
 	createEffect(() => {
 		setEl?.(div as any)
 	})

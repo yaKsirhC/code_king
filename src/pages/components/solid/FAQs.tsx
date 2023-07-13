@@ -6,7 +6,10 @@ import useAnimate from './scrollHook';
 export default function FAQs() {
 
   return (
-	<div class="faq-container px-4 justify-around flex-wrap-reverse items-center flex ">
+	<section id='faq' class="faq-container px-4 justify-around flex-col gap-8 items-center flex ">
+		<h1 class="title">
+			FAQs
+		</h1>
 		<div class="questions flex flex-col gap-8 w-fit">
 			<For each={faqs}>
 				{item => (
@@ -14,6 +17,6 @@ export default function FAQs() {
 				)}
 			</For>
 		</div>
-	</div>
+	</section>
   )
 }

@@ -5,7 +5,7 @@ export default function Hero() {
 	let svg: HTMLElement | undefined;
 	let div: HTMLElement | undefined;
 
-	const [setEl, setClass] = useAnimate("active-scroll", svg as HTMLElement,);
+	const [setEl, _] = useAnimate("active-scroll", svg as HTMLElement,);
 
 	createEffect(() => {
 		setEl?.(svg as any);
@@ -16,7 +16,7 @@ export default function Hero() {
 
 
 	return (
-		<section class="hero flex gap-8 items-center justify-center">
+		<section id="hero" class="hero flex gap-8 items-center justify-center">
 			<div class="flex xl:flex-row flex-col gap-16 xl:gap-0 px-8">
 				<div ref={div as HTMLDivElement} class="left xl:items-start items-center anim-fade-left flex gap-8 flex-col">
 					<h1 class="title ">

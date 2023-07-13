@@ -2,12 +2,12 @@ import useAnimate from "./scrollHook"
 
 export default function Technologies() {
 
-	const [selectEl, setClass] = useAnimate("active-scroll anim-fade-right")
+	const [selectEl, _] = useAnimate("active-scroll anim-fade-right")
 
 	selectEl?.(".tech-block" as any)
 
 	return (
-		<div class="flex flex-col items-center gap-8 mb-16">
+		<section id="techs" class="flex flex-col items-center gap-8 mb-16">
 			<div class="titles">
 				<h1 class="title mb-2 text-center">Our Supported Techs and Frameworks</h1>
 				<p class="text-gray-700 max-w-none text-center text-xl">25 Frameworks and other Technologies Supported</p>
@@ -145,6 +145,6 @@ export default function Technologies() {
 				</div>
 				
 			</div>
-		</div>
+		</section>
 	)
 }

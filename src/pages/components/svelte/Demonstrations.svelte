@@ -4,7 +4,7 @@
 	let cardIndex = 0;
 </script>
 
-<section class="demo flex justify-evenly xl:items-start items-center xl:flex-row xl: flex-col-reverse xl:gap-16 gap-8">
+<section id="demos" class="demo flex justify-evenly xl:items-start items-center xl:flex-row xl: flex-col-reverse xl:gap-16 gap-8">
 	<div class="description">
 		<div class="genres-cole grid place-content-center">
 			<p class="xl:text-start text-center px-4 text-gray-700">

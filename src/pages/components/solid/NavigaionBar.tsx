@@ -13,30 +13,30 @@ export default function NavigaionBar() {
 			<div ref={navOp as any} class={"all absolute transition-all md:flex md:justify-center justify-between gap-8 top-full md:shadow-none md:items-center py-4 md:p-0 px-4 md:opacity-100  " + (is() ? "right-0 bg-white z-50 shadow-sm opacity-100 shadow-lblue" : "left-full opacity-0")}>
 				<ul class="left-links flex-col md:flex-row flex gap-8">
 					<li>
-						<a href="">
+						<a href="#wwd">
 							What We Do
 						</a>
 						<div style={{ transform: "rotateY(90deg)" }} class="active"></div>
 					</li>
 					<li>
-						<a href="">
+						<a href="#proc">
 							The Process
 						</a>
 						<div style={{ transform: "rotateY(90deg)" }} class="active"></div>
 					</li>
 				</ul>
-				<a class="" href="#">
+				<a class="" href="#hero">
 					<img class="w-28 md:m-0 my-20" src="/dblue_king.png" alt="Code King" />
 				</a>
 				<ul class="flex gap-8 right-links flex-col md:flex-row">
 					<li>
-						<a href="">
+						<a href="#demos">
 							Demonstrations
 						</a>
 						<div style={{ transform: "rotateY(90deg)" }} class="active"></div>
 					</li>
 					<li>
-						<a href="">
+						<a href="#contact">
 							Contact Us
 						</a>
 						<div style={{ transform: "rotateY(90deg)" }} class="active"></div>
