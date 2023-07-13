@@ -7,7 +7,7 @@
 <section class="demo flex justify-evenly xl:items-start items-center xl:flex-row xl: flex-col-reverse xl:gap-16 gap-8">
 	<div class="description">
 		<div class="genres-cole grid place-content-center">
-			<p class="xl:text-start text-center !w-max max-w-none px-4 text-gray-700">
+			<p class="xl:text-start text-center px-4 text-gray-700">
 				{demos.at(cardIndex)?.genres}
 			</p>
 		</div>
@@ -34,7 +34,7 @@
 			src={demos.at(cardIndex)?.media}
 			alt={demos.at(cardIndex)?.media}
 		/>
-		<p class="text-gray-700 sm:text-xl text-xs mt-2 px-4 text-start">
+		<p class="text-gray-700 sm:text-xl text-xs mt-2 px-4 text-center sm:text-start">
 			{demos.at(cardIndex)?.credit}
 		</p>
 	</a>
@@ -42,7 +42,7 @@
 
 <style lang="css">
 	p {
-		width: 50ch;
+		max-width: 50ch;
 		/* height: 150px; */
 	}
 	img {
