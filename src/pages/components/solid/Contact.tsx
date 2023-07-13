@@ -24,7 +24,7 @@ export default function Contact() {
 					</div>
 					<div class="bg-ldarkblue text-white md:-my-5 ">
 						<p class="">The Best and most efficient method to start planning a project, is to arrange a live meeting with Calendly</p>
-						<a href="" class="p-2 bg-lred rounded-md text-lg font-semibold">Go to calendly</a>
+						<a href="https://calendly.com/code-king/plan" class="p-2 bg-lred rounded-md text-lg font-semibold">Go to calendly</a>
 					</div>
 					<div class="email-cont bg-gray-100">
 						<p>Alternatively you can send us an email, it's the least inefficient method of getting in touch with us. But since it's your last option, we will be waiting for your</p>
