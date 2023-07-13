@@ -9,7 +9,7 @@ export default function ThingWeDo({title, description}: {title: string, descript
 	})
 	
   return (
-	<div ref={div as any} class="bg-gray-50 p-4 anim-fade-right twd rounded-xl shadow-gray-400 shadow-md">
+	<div ref={div as any} class="bg-gray-50 p-4 w-fit anim-fade-right twd rounded-xl shadow-gray-400 shadow-md">
 		<h1 class="text-lg font-semibold mb-2">
 			{title}
 		</h1>

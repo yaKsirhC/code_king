@@ -31,7 +31,7 @@ export default function Hero() {
 						<a href="" class="px-4 py-2 hover:text-lred font-semibold text-ldarkblue">Get to know the Team</a>
 					</div>
 				</div>
-				<div class="right">
+				<div class="right pr-5">
 					<img ref={svg as any} class="anim-fade-right" src="/responsive.svg" alt="why am i here? press ctrl+shift+c and go to network, reload, what's the error?" />
 				</div>
 			</div>

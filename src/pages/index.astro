@@ -25,10 +25,7 @@ import Main from "../layouts/main.astro";
 		property="og:description"
 		content="Code King is an independent and International Team of Designers and Developers. We specialize in UI / UX design, and Web and Mobile Development. You don't have to manage a team in order to build simple or complicated projects. We will do all the hard work for you. "
 	/>
-	<meta
-		property="og:image"
-		content="/dblue_king-removebg-preview.jpg"
-	/>
+	<meta property="og:image" content="/dblue_king-removebg-preview.jpg" />
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -39,13 +36,10 @@ import Main from "../layouts/main.astro";
 		name="twitter:description"
 		content="Code King is an independent and International Team of Designers and Developers. We specialize in UI / UX design, and Web and Mobile Development. You don't have to manage a team in order to build simple or complicated projects. We will do all the hard work for you. "
 	/>
-	<meta
-		name="twitter:image"
-		content="/dblue_king-removebg-preview.jpg"
-	/>
+	<meta name="twitter:image" content="/dblue_king-removebg-preview.jpg" />
 
 	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
-	<link rel="shortcut icon" href="/red_lion.png" type="image/png">
+	<link rel="shortcut icon" href="/red_lion.png" type="image/png" />
 	<meta
 		name="keywords"
 		content="web, mobile, development, ui ux, design, responsive, vuejs, react, native, deployemnt, codinng"
@@ -112,17 +106,27 @@ import Main from "../layouts/main.astro";
 	.linkedin:hover path {
 		fill: #0e76a8;
 	}
-	.email:hover path {
+	.email:hover path{
 		fill: #4267b2;
+		/* display: none; */
 	}
 
 	.technologies-box {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, 400px);
 		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
 		gap: 2rem;
-		max-width: 832px;
-		width: 100%;
+		/* max-width: 832px; */
+		max-width: 1150px;
+		padding: 0 40px;
+	}
+
+	.technologies-box > * {
+		flex-grow: 1;
+	}
+
+	.technologies-box h1 {
+		max-width: none;
 	}
 
 	.tech-block h1 {
@@ -133,6 +137,7 @@ import Main from "../layouts/main.astro";
 	.skills {
 		display: flex;
 		gap: 1rem;
+		justify-content: space-between;
 	}
 
 	.skills img {
@@ -157,13 +162,60 @@ import Main from "../layouts/main.astro";
 	.list-decimal li {
 		display: flex;
 		gap: 20px;
+		flex-wrap: wrap;
 		justify-content: space-evenly;
+	}
+
+	.tech {
+		gap: 20px;
+		align-items: center;
+	}
+	.skills {
+		display: flex;
+		flex-wrap: wrap;
 	}
 
 	.list-decimal li h2 {
 		font-size: 1.25rem /* 20px */;
 		line-height: 1.75rem /* 28px */;
 		font-weight: 600;
+	}
+
+	.contact-methods > div {
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		box-shadow: 3px 3px 15px 1px rgba(68, 68, 68, 0.25);
+	}
+
+	.contact-methods > div p {
+		font-size: 1.25rem /* 20px */;
+		line-height: 1.75rem /* 28px */;
+		max-width: 25ch;
+	}
+
+	.email svg {
+		height: 40px;
+		width: auto;
+	}
+
+	.contact-methods > div:nth-child(2) {
+		padding: 20px;
+		box-shadow: 3px 3px 15px 1px rgba(68, 68, 68, 0.25);
+		z-index: 4;
+	}
+	.contact-methods > div:nth-child(2) a:hover{
+		background-color: rgb(197 0 30);
+	}
+
+	.email{
+		margin-top: 20px;
+	}
+
+	.contact {
+		padding: 0 20px;
 	}
 
 	#ck {
@@ -173,6 +225,8 @@ import Main from "../layouts/main.astro";
 		gap: 10rem;
 		margin: 8rem 0;
 	}
+
+	.ham
 
 	*,
 	*::after,
@@ -244,6 +298,12 @@ import Main from "../layouts/main.astro";
 		100% {
 			opacity: 1;
 			transform: translateX(0) translateY(0);
+		}
+	}
+
+	@media screen and (min-width: 768px) {
+		.all {
+			position: unset !important;
 		}
 	}
 </style>
