@@ -28,7 +28,7 @@ export default function Hero() {
 					</h2>
 					<div class="anchors flex-wrap justify-center flex gap-4 ">
 						<a href="https://calendly.com/code-king/plan" class="cursor-pointer border-lred border-2 font-semibold text-lred rounded-full px-4 py-2 hover:text-white hover:bg-lred">Schedule A Meeting</a>
-						<a href="" class="px-4 py-2 hover:text-lred font-semibold text-ldarkblue">Get to know the Team</a>
+						<a href="" class="px-4 py-2 hover:text-lred font-semibold text-ldarkblue">Demonstrations</a>
 					</div>
 				</div>
 				<div class="right pr-5">
