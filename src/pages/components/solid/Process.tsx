@@ -12,16 +12,18 @@ export default function Process() {
 	return (
 		<section id="proc" class=" flex p-16 flex-col gap-16 mb-16">
 				<h1 class="title self-center">The Process</h1>
-				<h2 class="mb-4 text-center self-center process-p">
+				<h2 class="mb-4 self-center process-p">
 					There are 4 major Steps with how we build projects and little is done by you except
-					describing, critiquing and giving suggestions. Here is a breakdown of all the steps:
+					describing, critiquing and giving suggestions. Here is a breakdown of all the steps.
 				</h2>
 				<ul class="list-decimal flex-grow flex gap-40 flex-col">
 					<li>
 						<h2>
 							<span>
-								Planning.
+								Planning.    
 							</span>
+							<span> </span>
+
 							We will talk about project details, requirements and decide the Budget and duration.
 						</h2>
 						<img src="/process/prep.svg" alt="Planning" />
@@ -29,8 +31,9 @@ export default function Process() {
 					<li>
 						<h2>
 							<span>
-								Designing.
+								Designing. 
 							</span>
+							<span> </span>
 							Our team will make a prototype of how the App will look on a popular software called Figma. You will interact and decide if the prototype matches your expectations.
 						</h2>
 						<img src="/process/design.svg" alt="Design" />
@@ -49,6 +52,8 @@ export default function Process() {
 							<span>
 								Preview.
 							</span>
+							<span> </span>
+
 							After we finish coding, we will host the app in a dummy environment. You will be able to interact and decide if everything is ready.
 						</h2>
 						<img src="/process/preview.svg" alt="Preview" />
@@ -58,6 +63,8 @@ export default function Process() {
 							<span>
 								Delivery or Deployment.
 							</span>
+							<span> </span>
+
 							Either we will deploy the app ourselves and  you will be given the app deployed, or you will be handed the project to follow the deployment yourself. We will not charge additional fees for the deployment.
 						</h2>
 						<img src="/process/deliver.svg" alt="Delivery or Deployment" />

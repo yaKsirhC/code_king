@@ -7,7 +7,7 @@
 <section id="demos" class="demo flex justify-evenly xl:items-start items-center xl:flex-row xl: flex-col-reverse xl:gap-16 gap-8">
 	<div class="description">
 		<div class="genres-cole grid place-content-center">
-			<p class="xl:text-start sm:text-center text-start px-4 text-gray-700">
+			<p class="xl:text-start sm:text-center max-w-none text-start px-4 text-gray-700">
 				{demos.at(cardIndex)?.genres}
 			</p>
 		</div>
@@ -41,14 +41,11 @@
 </section>
 
 <style lang="css">
-	p {
-		max-width: 30ch;
-		/* height: 150px; */
-	}
 	img {
 		object-fit: contain;
 		/* height: 400px; */
 		width: 80vw;
 		max-width: 600px;
+		max-height: 800px;
 	}
 </style>

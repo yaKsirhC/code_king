@@ -26,7 +26,7 @@ export default function NavigaionBar() {
 					</li>
 				</ul>
 				<a class="" href="#hero">
-					<img class="w-28 md:m-0 my-20" src="/dblue_king.png" alt="Code King" />
+					<img class="w-28 md:m-0 my-20" src="/dblue_king.webp" alt="Code King" />
 				</a>
 				<ul class="flex gap-8 right-links flex-col md:flex-row">
 					<li>
@@ -44,7 +44,7 @@ export default function NavigaionBar() {
 				</ul>
 			</div>
 			<a class="block md:hidden" href="#">
-				<img class="w-28" src="/dblue_king.png" alt="Code King" />
+				<img class="w-28" src="/dblue_king.webp" alt="Code King" />
 			</a>
 			<button class="navbtn" onclick={toggleNav}>
 				<svg class="ham block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#2b2551" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 17h18M3 12h18M3 7h18" /></svg>

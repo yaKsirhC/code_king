@@ -39,7 +39,7 @@ import Main from "../layouts/main.astro";
 	<meta name="twitter:image" content="/dblue_king-removebg-preview.jpg" />
 
 	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
-	<link rel="shortcut icon" href="/red_lion.png" type="image/png" />
+	<link rel="shortcut icon" href="/red_lion.webp" type="image/png" />
 	<meta
 		name="keywords"
 		content="web, mobile, development, ui ux, design, responsive, vuejs, react, native, deployemnt, codinng"
@@ -113,6 +113,17 @@ import Main from "../layouts/main.astro";
 	.email:hover path{
 		fill: #4267b2;
 		/* display: none; */
+	}
+	.insta svg rect {
+		fill: #2b2551;
+		transition: all 2s;
+	}
+
+	.insta:hover svg rect {
+		/* fill: #2b2551; */
+		fill: initial;
+		fill: #8888;
+		fill: url(#skillIconsInstagram0);
 	}
 
 	.technologies-box {

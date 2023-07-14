@@ -2,25 +2,25 @@
 	{
 		"genres": ["Web Development", "Mobile Development", "UI / UX"],
 		"paragraph": "Muhammadamin and Samandar, developed a web and native news app. The app has many real-time users wanting to see the news. The app Front end ( vuejs and flutter ) communicate with an API to deliver the information.",
-		"media": "/tags_all.png",
+		"media": "/tags_all.webp",
 		"credit": "https://play.google.com/store/apps/details?id=uz.news.mobile"
 	},
 	{
 		"genres": ["Web Development", "UI / UX"],
 		"paragraph": "Muhammadamin and I, developed a   modern and elegant template for building landing pages. Developing a website with such template will therefore be faster and easier. If you find this to be what you needed we can deliver it in no time ( vuejs, reactjs, solidjs ).",
-		"media": "/landing.png",
+		"media": "/landing.webp",
 		"credit": "https://landinginnuxtfree.netlify.app/"
 	},
 	{
 		"genres": ["Web Development"],
 		"paragraph": "e-konkurs.uz is a vuejs auction platform that Muhammadamin developed himself. You can put a supply request to be completed and wait for suppliers to make bids. For example, you put a request of a 1000 desks to build a school and suppliers send their offer.",
-		"media": "/konkurs.png",
+		"media": "/konkurs.webp",
 		"credit": "https://e-konkurs.uz/"
 	},
 	{
 		"genres": ["UI / UX"],
 		"paragraph": "Ajay was tasked to build a modern UI for “tradersofindia”. Ajay has experience in the finance niche of web design. You can see his work if you go to tradersofindia website.",
-		"media": "/tradersofinida.png",
+		"media": "/tradersofinida.webp",
 		"credit": "https://tradersofindia.in/desktop/index.html"
 	}
 ]

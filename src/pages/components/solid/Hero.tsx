@@ -23,7 +23,7 @@ export default function Hero() {
 						We will make your Ideas
 						into Web and Native Apps
 					</h1>
-					<h2 class="text-gray-700 text-lg ">
+					<h2 class="text-gray-700 text-xl ">
 						You won't have to worry about the burdens of managing a team. We cover the whole process and deliver what you asked for.
 					</h2>
 					<div class="anchors flex-wrap justify-center flex gap-4 ">

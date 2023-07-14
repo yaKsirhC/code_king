@@ -1,7 +1,7 @@
 export default function Footer() {
 	return (
 		<section class="flex sm:flex-row-reverse flex-col justify-between px-8 gap-8 py-8 bg-lblue text-white">
-			<img src="/white_king.png" alt="Code King" class="w-64 h-fit self-center" />
+			<img src="/white_king.webp" alt="Code King" class="w-64 h-fit self-center" />
 			<div class="flex-col flex">
 				<div class="links flex flex-wrap gap-4">
 					<a href="#techs">
