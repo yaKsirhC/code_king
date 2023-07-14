@@ -1,10 +1,8 @@
 import { For } from 'solid-js';
 import faqs from '../../../data/FAQs.json'
 import QuestionAnswer from "./QuestionAnswer";
-import useAnimate from './scrollHook';
 
 export default function FAQs() {
-
   return (
 	<section id='faq' class="faq-container px-4 justify-around flex-col gap-8 items-center flex ">
 		<h1 class="title">
