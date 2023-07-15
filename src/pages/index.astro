@@ -114,16 +114,13 @@ import Main from "../layouts/main.astro";
 		fill: #4267b2;
 		/* display: none; */
 	}
-	.insta svg rect {
-		fill: #2b2551;
-		transition: all 2s;
+	.insta svg {
+		filter: grayscale(100%);
+		transition: all 500ms;
 	}
 
-	.insta:hover svg rect {
-		/* fill: #2b2551; */
-		fill: initial;
-		fill: #8888;
-		fill: url(#skillIconsInstagram0);
+	.insta:hover svg {
+		filter: none;
 	}
 
 	.technologies-box {
@@ -253,8 +250,6 @@ import Main from "../layouts/main.astro";
 		gap: 10rem;
 		margin: 8rem 0;
 	}
-
-	.ham
 
 	*,
 	*::after,
