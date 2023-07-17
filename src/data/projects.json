@@ -1,26 +1,26 @@
 [
 	{
-		"genres": ["Web Development", "Mobile Development", "UI / UX"],
-		"paragraph": "Muhammadamin and Samandar, developed a web and native news app. The app has many real-time users wanting to see the news. The app Front end ( vuejs and flutter ) communicate with an API to deliver the information.",
+		"genres": ["Web Development", " Mobile Development", " UI / UX"],
+		"paragraph": "Muhammadamin and Sam Developed a Web and Native News App. The App Has Many Real-Time Users Wanting to See the News. The App Front End (Vue.js and Flutter) Communicate with an API to Deliver the Information.",
 		"media": "/tags_all.webp",
 		"credit": "https://play.google.com/store/apps/details?id=uz.news.mobile"
 	},
 	{
-		"genres": ["Web Development", "UI / UX"],
-		"paragraph": "Muhammadamin and I, developed a   modern and elegant template for building landing pages. Developing a website with such template will therefore be faster and easier. If you find this to be what you needed we can deliver it in no time ( vuejs, reactjs, solidjs ).",
+		"genres": ["Web Development", " UI / UX"],
+		"paragraph": "Muhammadamin and Chris Developed a Modern and Elegant Template for Building Landing Pages. Developing a Website with Such Template Will Therefore Be Faster and Easier. If You Find This to Be What You Needed We Can Deliver It in No Time (Vue.js, React.js, Solid.js).",
 		"media": "/landing.webp",
 		"credit": "https://landinginnuxtfree.netlify.app/"
 	},
 	{
 		"genres": ["Web Development"],
-		"paragraph": "e-konkurs.uz is a vuejs auction platform that Muhammadamin developed himself. You can put a supply request to be completed and wait for suppliers to make bids. For example, you put a request of a 1000 desks to build a school and suppliers send their offer.",
+		"paragraph": "e-konkurs.uz Is a Vue.js Auction Platform That Muhammadamin Himself. You Can Put a Supply Request to Be Completed and Wait for Suppliers to Make Bids. For Example, You Put a Request of a 1000 Desks to Build a School and Suppliers Send Their Offer.",
 		"media": "/konkurs.webp",
 		"credit": "https://e-konkurs.uz/"
 	},
 	{
-		"genres": ["UI / UX"],
-		"paragraph": "Ajay was tasked to build a modern UI for “tradersofindia”. Ajay has experience in the finance niche of web design. You can see his work if you go to tradersofindia website.",
-		"media": "/tradersofinida.webp",
-		"credit": "https://tradersofindia.in/desktop/index.html"
+		"genres": ["UI"],
+		"paragraph": "Modern UI Design for a Travel Agency's Home Page by Pritesh. The Page Gives a Balance Between Functionality and Design. If You Want a Web Page or Mobile Application with Travel-Agency-Grade Designs, Look No Further Than Us. You Can Also View More Designs by Clicking the Design.",
+		"media": "/pritesh.webp",
+		"credit": "https://dribbble.com/pr1teshh"
 	}
 ]
