@@ -120,10 +120,6 @@ export default function Technologies() {
 							<img src="/logos/flutter.svg" alt="Flutter" />
 							<p>Flutter</p>
 						</div>
-						<div class="tech flex">
-							<img src="/logos/tauri.svg" alt="Tauri" />
-							<p>Tauri</p>
-						</div>
 					</div>
 				</div>
 				<div class="deployment tech-block bg-gray-50 p-4 rounded-xl shadow-gray-400 shadow-md">
@@ -140,6 +136,10 @@ export default function Technologies() {
 						<div class="tech flex">
 							<img src="/logos/aws.svg" alt="AWS" />
 							<p>AWS</p>
+						</div>
+						<div class="tech flex">
+							<img src="/logos/vercel.svg" alt="AWS" />
+							<p>Vercel</p>
 						</div>
 					</div>
 				</div>
