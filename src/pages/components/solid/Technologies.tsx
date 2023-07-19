@@ -18,7 +18,7 @@ export default function Technologies() {
 					<div class="skills">
 						<div class="tech flex">
 							<img src="/logos/react.svg" alt="React.js" />
-							<p>React.js</p>
+							<p>Reactjs</p>
 						</div>
 						<div class="tech flex">
 							<img src="/logos/solidjs.svg" alt="Solid.js" />
