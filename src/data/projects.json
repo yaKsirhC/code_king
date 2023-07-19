@@ -1,7 +1,7 @@
 [
 	{
 		"genres": ["Web Development", " Mobile Development", " UI / UX"],
-		"paragraph": "Muhammadamin and Sam Developed a Web and Native News App. The App Has Many Real-Time Users Wanting to See the News. The App Front End (Vue.js and Flutter) Communicate with an API to Deliver the Information.",
+		"paragraph": "Muhammadamin and Sam Developed a Web and Native News App. The App Has Many Real-Time Users Wanting to See the News. The App Front End (Vue.js and Flutter) Communicates with an API to Deliver the Information.",
 		"media": "/tags_all.webp",
 		"credit": "https://play.google.com/store/apps/details?id=uz.news.mobile"
 	},

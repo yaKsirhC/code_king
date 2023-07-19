@@ -22,7 +22,7 @@ export default function Technologies() {
 						</div>
 						<div class="tech flex">
 							<img src="/logos/solidjs.svg" alt="Solid.js" />
-							<p>Solisjs</p>
+							<p>Solidjs</p>
 						</div>
 						<div class="tech flex">
 							<img src="/logos/vuejs.svg" alt="Vue.js" />
